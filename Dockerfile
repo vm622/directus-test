@@ -4,9 +4,8 @@ USER root
 RUN corepack enable
 USER node
 
+COPY package.json pnpm-lock.yaml ./
+
 # spreadsheet-layout extension installed from Directus Marketplace 
 RUN pnpm install @directus-labs/spreadsheet-layout
 
-
-#test line 1 
-#test line 2
