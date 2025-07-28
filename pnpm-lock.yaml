@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@directus-labs/spreadsheet-layout':
+        specifier: latest
+        version: 1.0.2
+
+packages:
+
+  '@directus-labs/spreadsheet-layout@1.0.2':
+    resolution: {integrity: sha512-K4qAbYV6dZsnUCBPxOwxgOuOLr5l1Xk2u0S9ngvIET6iH/89vtw3+2w1MlRHxWdo+Fp39kuM3VMX8Mfnx99gPA==}
+
+snapshots:
+
+  '@directus-labs/spreadsheet-layout@1.0.2': {}
