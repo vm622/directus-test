@@ -8,4 +8,4 @@ RUN pnpm install --lockfile-only
 
 # spreadsheet-layout extension installed from Directus Marketplace 
 RUN pnpm install @directus-labs/spreadsheet-layout
-
+RUN pnpm install @directus-labs/opensearch-operation
